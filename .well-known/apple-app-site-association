@@ -1,0 +1,34 @@
+{
+  "applinks": {
+      "details": [
+           {
+             "appIDs": [ "6759869063.com.fumieseki.Tombo-Fes-App.syukuton", "ABCDE12345.com.example.app2" ],
+             "components": [
+               {
+                  "#": "no_universal_links",
+                  "exclude": true,
+                  "comment": "「#no_universal_links」がついている場合、ユニバーサルリンクが発動しません！"
+               },
+               {
+                  "?": { "param": "?*" },
+                  "exclude": true,
+                  "comment": "「?param=」のパラメータがついていたら発動しません！"
+               },
+               {
+                  "/": "/help/website/*",
+                  "exclude": true,
+                  "comment": "ドメイン直下が「/help/website/」から始まる時、発動しません！"
+               },
+               {
+                  "/": "/w/*",
+                  "comment": "ドメイン直下が「/w/」から始まる時、発動します！"
+               },
+               {
+                    "/": "/s/*",
+                    "comment": "ドメイン直下が「/s/」から始まる時、発動します！"
+               }
+             ]
+           }
+       ]
+   }
+}

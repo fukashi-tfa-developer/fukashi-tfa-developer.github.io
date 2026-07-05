@@ -2,7 +2,7 @@
   "applinks": {
       "details": [
            {
-             "appIDs": [ "6759869063.com.fumieseki.Tombo-Fes-App.syukuton", "ABCDE12345.com.example.app2" ],
+             "appIDs": [ "6759869063.com.fumieseki.Tombo-Fes-App.syukuton"],
              "components": [
                {
                   "#": "no_universal_links",
